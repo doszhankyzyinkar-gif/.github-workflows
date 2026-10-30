@@ -1,0 +1,8 @@
+name: Student Workflow\n\non:\n  push:\n\njobs:\n  information:\n   
+runs-on: ubuntu-latest\n\n    steps:\n      
+- name: Student information\n        
+run: echo "My name is Student"\n\n      
+- name: Project information\n        
+run: echo "This is my first workflow"\n\n     
+- name: Date\n        
+run: date
